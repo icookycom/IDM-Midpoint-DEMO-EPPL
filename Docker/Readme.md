@@ -22,4 +22,4 @@ To start<br>
 To turn off<br>
 ./IDM_Midpoint_DEMO_EPPL/docker compose down<br>
 Tu turn off and delete any changes<br>
-./IDM_Midpoint_DEMO_EPPL/docker compose down -v<br>
+./IDM_Midpoint_DEMO_EPPL/docker compose down -v
