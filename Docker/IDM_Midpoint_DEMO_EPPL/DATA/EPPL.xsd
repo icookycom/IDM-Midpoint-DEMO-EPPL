@@ -1,0 +1,264 @@
+<xsd:schema elementFormDefault="qualified"
+            targetNamespace="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL"
+  xmlns:tns="http://example.com/xml/ns/mySchema"
+  xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3"
+  xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="RoleExtensionType">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <a:extension ref="c:RoleType"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+     <xsd:element name="role_purpose_type" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Purpose type</a:displayName>
+            <a:displayOrder>156</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+ <xsd:element name="role_root_system" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Root system</a:displayName>
+            <a:displayOrder>156</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+  <xsd:element name="user_forward_roles" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Users Forward Roles</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+  <xsd:element name="user_forward_roles_inherited" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Users Inherited Forward Roles</a:displayName>
+            <a:displayOrder>139</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+  <xsd:element name="user_account_number" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Account Number</a:displayName>
+            <a:displayOrder>148</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    <xsd:element name="role_active" type="xsd:boolean" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Active</a:displayName>
+            <a:displayOrder>1</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="user_givenName" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User givenName</a:displayName>
+            <a:displayOrder>136</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="user_familyName" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User familyName</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="user_additionalName" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User additionalName</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="user_personalNumber" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User personalNumber</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="user_administrativeStatus" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User administrativeStatus</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+ <xsd:element name="user_boss" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>User's Boss</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="user_you_are_boss" type="xsd:boolean" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Your are Boss</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="user_employment_type" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Employment Type</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="user_employment_parent" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Parent Employment</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+<xsd:complexType name="UserExtensionType">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <a:extension ref="c:UserType"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+    <xsd:element name="person_forward_roles" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Forward Roles</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="person_forward_roles_inherited" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Inherited Forward Roles</a:displayName>
+            <a:displayOrder>139</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+  <xsd:element name="person_account_number" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Account Number</a:displayName>
+            <a:displayOrder>148</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>  
+      <xsd:element name="person_boss" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+        <a:displayName>Your Bosses</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="person_you_are_boss" type="xsd:boolean" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>You are Boss</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="person_employment_type" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Employment Type</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+      <xsd:element name="person_employment_parent" type="xsd:string" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Parent Employment</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="OrgExtensionType">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <a:extension ref="c:OrgType"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="org_boss" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+        <a:displayName>Org Bosses</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
