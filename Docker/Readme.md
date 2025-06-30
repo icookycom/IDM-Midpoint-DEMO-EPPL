@@ -1,4 +1,4 @@
-<img src="./Docker_IDM_Midpoint_DEMO_EPPL.png" border="0"></img><br>
+
 <br>
 Midpoint<br>
 http://localhost:8080/midpoint/<br>
