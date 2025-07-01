@@ -16,5 +16,8 @@ IDM Midpoint EPPL | 1. Docker Compose first run<br>
 <br>
 IDM Midpoint EPPL | 2. Admin logon and LDAP setup<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9LUTxprl0qQ/0.jpg)](https://www.youtube.com/watch?v=9LUTxprl0qQ)
+<br>
+IDM Midpoint EPPL | 3. Users Employments Positions Data from HR CSV File<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_-rb96uvJsQ/0.jpg)](https://www.youtube.com/watch?v=_-rb96uvJsQ)
 
 
