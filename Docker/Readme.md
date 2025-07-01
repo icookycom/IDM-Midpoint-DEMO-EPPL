@@ -1,7 +1,7 @@
 <img src="./Docker_IDM_Midpoint_DEMO_EPPL_.png" border="0"></img><br>
 <br>
 Midpoint<br>
-http://localhost:8080/midpoint/<br>
+http://localhost:8080<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
 <br>
