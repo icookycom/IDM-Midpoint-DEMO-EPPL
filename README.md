@@ -21,5 +21,10 @@ IDM Midpoint EPPL | 2. Admin logon and LDAP setup<br>
 <br>
 IDM Midpoint EPPL | 3. Users Employments Positions Data from HR CSV File<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_-rb96uvJsQ/0.jpg)](https://www.youtube.com/watch?v=_-rb96uvJsQ)
-
+<br>
+IDM Midpoint EPPL | 4. GUI User Boss Request access for Position, Roles LDAP Group & Account<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0BuCAcwSCX8/0.jpg)](https://www.youtube.com/watch?v=0BuCAcwSCX8)
+<br>
+IDM Midpoint EPPL | 5. GUI User Request Access Role with approval Role with SOD<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DbhlUrv10wg/0.jpg)](https://www.youtube.com/watch?v=DbhlUrv10wg)
 
