@@ -17,7 +17,7 @@ For the Docker Compose, the Docker environment is required and Internet connecti
 <br>
 <b>Linux</b><br>
 Copy folder IDM_Midpoint_DEMO_EPPL<br>
-To start<br>
+Start Docker Desktop<br>
 ./IDM_Midpoint_DEMO_EPPL/docker compose up -d<br>
 To turn off<br>
 ./IDM_Midpoint_DEMO_EPPL/docker compose down<br>
