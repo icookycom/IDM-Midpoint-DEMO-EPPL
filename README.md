@@ -27,4 +27,9 @@ IDM Midpoint EPPL | 4. GUI User Boss Request access for Position, Roles LDAP Gro
 <br>
 IDM Midpoint EPPL | 5. GUI User Request Access Role with approval Role with SOD<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DbhlUrv10wg/0.jpg)](https://www.youtube.com/watch?v=DbhlUrv10wg)
-
+<br>
+IDM Midpoint EPPL | 6. GUI User: Project Creation and Management it Roles, Members, Status<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/NTscJCasI_U/0.jpg)](https://www.youtube.com/watch?v=NTscJCasI_U)
+<br>
+IDM Midpoint EPPL | 7. GUI User Managing dedicated Project Roles<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/u7g0Neyn3rE/0.jpg)](https://www.youtube.com/watch?v=u7g0Neyn3rE)
