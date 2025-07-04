@@ -33,3 +33,6 @@ IDM Midpoint EPPL | 6. GUI User: Project Creation and Management it Roles, Membe
 <br>
 IDM Midpoint EPPL | 7. GUI User Managing dedicated Project Roles<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/u7g0Neyn3rE/0.jpg)](https://www.youtube.com/watch?v=u7g0Neyn3rE)
+<br>
+IDM Midpoint EPPL | 8. Dismissal from Position, Multiple Accounts, Users photo to LDAP<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fCVq6cfEKKY/0.jpg)](https://www.youtube.com/watch?v=fCVq6cfEKKY)
