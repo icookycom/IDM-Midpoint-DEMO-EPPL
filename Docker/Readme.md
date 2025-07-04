@@ -5,6 +5,9 @@ http://localhost:8080<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
 <br>
+Username: Any User<br>
+Password: Password123<br>
+<br>
 phpLDAPadmin<br>
 http://localhost:8081<br>
 Login DN: cn=admin,dc=example,dc=com<br>
