@@ -10,6 +10,51 @@ Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/D
 <b>Schema</b><br>
 <img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/Schema%20IDM%20MIdpoint%20EPPL.png" border="0"></img><br>
 <br>
+
+
+<b>EPPL Functionality</b><br>
+<b>1. Employments</b><br>
+Creation/blocking from HR source<br>
+Linking to an employee from HR source<br>
+Creating assignment roles from employment roles<br>
+Creating system accounts for employment<br>
+<b>2. Positions</b><br>
+Creation/blocking from HR source<br>
+Linking to employment from HR source<br>
+Requesting assignment roles<br>
+Creating system accounts for assignments<br>
+<b>3. Projects</b><br>
+Project creation and editing by employees with project creation rights<br>
+Adding/removing project members<br>
+Adding/removing project rights<br>
+Creating custom project roles<br>
+Assigning custom project roles to a project member or to the project itself<br>
+Revoking custom project roles when a member is removed from the project<br>
+Disabling a project and removing all its members<br>
+<b>4. SOD (Segregation of Duties)</b><br>
+Role assignment approval workflows<br>
+Restrictions on role acquisition based on recipient type and company affiliation<br>
+<b>5. Subordinates</b><br>
+Requesting access rights for subordinates<br>
+Viewing a subordinate’s photo<br>
+Hierarchical determination of supervisors by department<br>
+<b>6. Login/nickName Generation</b><br>
+Cyrillic is converted to Latin<br>
+Generated at the time of account assignment<br>
+Uniqueness is checked against the name in Midpoint and cached resources data<br>
+Updated when the last name changes in the HR source<br>
+Login is released if no accounts are associated<br>
+<b>7. Personal Data</b><br>
+Viewing restrictions<br>
+<b>8. Connected Resources</b><br>
+LDAP accounts/groups<br>
+MS AD (Active Directory) accounts/groups<br>
+Creating Forward Roles from LDAP groups<br>
+Creating Forward Roles from MS AD groups<br>
+Creating Personal Data<br>
+Exporting photos to LDAP<br>
+Creating Employees/Employments/Assignments from HR sources (multiple resources)<br>
+<br>
 <b>Video Steps</b><br>
 <a href="https://www.youtube.com/@IDMMidpointEPP">www.youtube.com/@IDMMidpointEPPL</a><br>
 <br>
