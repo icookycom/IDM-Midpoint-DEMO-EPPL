@@ -27,7 +27,6 @@ Tu turn off and delete any changes<br>
 ./IDM_Midpoint_DEMO_EPPL/docker compose down -v
 <b><br><br>
 <b>Windows</b><br>
-
 <br>
 IDM Midpoint EPPL | 1. Docker Compose first run<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_Vm4GSTNzGE/0.jpg)](https://www.youtube.com/watch?v=_Vm4GSTNzGE)
