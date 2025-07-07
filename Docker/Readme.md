@@ -5,7 +5,7 @@ http://localhost:8080<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
 <br>
-Username: Any User<br>
+Username: *Any User*<br>
 Password: Password123<br>
 <br>
 phpLDAPadmin<br>
@@ -14,9 +14,8 @@ Login DN: cn=admin,dc=example,dc=com<br>
 Password: Test5ecr3t<br>
 <br>
 <br>
-<br>
 <b>Docker Compose</b><br>
-For the Docker Compose, the Docker environment is required and Internet connection on first run.<br>
+For the Docker Compose, the Docker environment(Docker Desktop) is required and Internet connection on first run.<br>
 <br>
 <b>Linux</b><br>
 Copy folder IDM_Midpoint_DEMO_EPPL<br>
