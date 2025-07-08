@@ -60,7 +60,7 @@ Creating Personal Data<br>
 Exporting photos to LDAP<br>
 Creating Employees/Employments/Assignments from HR sources (multiple resources)<br>
 <b>9. Company</b><br>
-Company Name propagates to Role catalog Head, Departmen Head(EPPL 1.01), Employments, Popsitions<br>
+Company Name propagates to Role Catalog Head, Departmen Catalog Head(EPPL 1.01), Employments, Popsitions<br>
 <br>
 <b>Video Steps</b><br>
 <a href="https://www.youtube.com/@IDMMidpointEPP">www.youtube.com/@IDMMidpointEPPL</a><br>
