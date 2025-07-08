@@ -1,6 +1,9 @@
 IDM Midpoint DEMO EPPL<br>
 Employments Positions Projects LDAP<br>
 <br>
+Versions:<br>
+<b>EPPL 1.0 30.06.25</b><br>
+<br>
 <b>Docker</b><br>
 Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
 <br>
@@ -44,6 +47,8 @@ Generated at the time of account assignment<br>
 Uniqueness is checked against the name in Midpoint and cached resources data<br>
 Updated when the last name changes in the HR source<br>
 Login is released if no accounts are associated<br>
+Login Stop list (EPPL 1.01)<br>
+Infinitely Logins (EPPL 1.01)<br>
 <b>7. Personal Data</b><br>
 Viewing restrictions<br>
 <b>8. Connected Resources</b><br>
@@ -54,6 +59,8 @@ Creating Forward Roles from MS AD groups<br>
 Creating Personal Data<br>
 Exporting photos to LDAP<br>
 Creating Employees/Employments/Assignments from HR sources (multiple resources)<br>
+<b>9. Company</b><br>
+Company Name propagates to Role catalog Head, Departmen Head(EPPL 1.01), Employments, Popsitions<br>
 <br>
 <b>Video Steps</b><br>
 <a href="https://www.youtube.com/@IDMMidpointEPP">www.youtube.com/@IDMMidpointEPPL</a><br>
