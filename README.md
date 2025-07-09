@@ -6,7 +6,7 @@ Version:<br>
 Compatibility: midPoint 4.9.1<br>
 
 Under Development<br>
-<b>EPPL 1.01 14.09.25</b><br>
+<b>EPPL 1.01 16.09.25</b><br>
 Compatibility: midPoint 4.9.1, will be tested on 4.9.4<br>
 Changes with Respect To Version 1.0<br>
 - Added Login Stop List<br>
