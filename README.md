@@ -11,11 +11,12 @@ Changes with Respect To Version 1.0<br>
 - Added Login Stop List<br>
 - Added Infinitely Logins (numbers are added to the end of the login)<br>
 - Added Head Department inherits Company Name<br>
+- Added personalNumber in SearchBox of views All Users, My IDM Subordinates, All Account Users, Employment Users, Position Users<br>
+- Added filter Dep.Managers only in SearchBox of view Position Users<br>
 - Improved Task "EPPL delete nickName without members" for "Login Stop List"<br>
-- Impoved Login/nickName generation Script for "Login Stop List" and "Infinitely Logins"<br>
-- Fixed RED Error: GUI Boss Request LDAP Position Account to own Position<br>
-<br>
-
+- Impoved Login/nickName generation for "Login Stop List" and "Infinitely Logins"<br>
+- Fixed RED Error: GUI Boss Request LDAP account to own Position<br>
+- Fixed All Account Users name in Object Collection list<br>
 <br>
 <b>Docker</b><br>
 Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
