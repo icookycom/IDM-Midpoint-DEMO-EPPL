@@ -1,9 +1,10 @@
 IDM Midpoint DEMO EPPL<br>
 Employments Positions Projects LDAP<br>
 <br>
-Versions:<br>
+Version:<br>
 <b>EPPL 1.0 30.06.25</b><br>
 Compatibility: midPoint 4.9.1<br>
+
 Under Development<br>
 <b>EPPL 1.01 14.09.25</b><br>
 Compatibility: midPoint 4.9.1, will be tested on 4.9.4<br>
