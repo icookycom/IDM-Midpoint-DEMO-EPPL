@@ -13,7 +13,7 @@ Changes with Respect To Version 1.0<br>
 - Added Head Department inherits Company Name<br>
 - Improved Task "EPPL delete nickName without members" for "Login Stop List"<br>
 - Impoved Login/nickName generation Script for "Login Stop List" and "Infinitely Logins"<br>
-- Fixed RED Error: GUI Boss Request LDAP account to own Position<br>
+- Fixed RED Error: GUI Boss Request LDAP Position Account to own Position<br>
 <br>
 
 <br>
