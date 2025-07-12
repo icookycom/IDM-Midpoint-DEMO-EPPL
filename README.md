@@ -14,6 +14,7 @@ Changes with Respect To Version 1.0<br>
 - Added Head Department inherits Company Name<br>
 - Added personalNumber in Search Box of views All Users, My IDM Subordinates, All Account Users, Employment Users, Position Users<br>
 - Added filter "Dep.Managers only" in Search Box of view Position Users<br>
+- Faster reconcilation in some tasks with Multi-node<br>
 - Improved Task "EPPL delete nickName without members" for "Login Stop List"<br>
 - Impoved Login/nickName generation Script for "Login Stop List" and "Infinitely Logins"<br>
 - Fixed RED Error: GUI Boss Request LDAP account to own Position<br>
