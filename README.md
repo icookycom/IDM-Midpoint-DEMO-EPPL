@@ -83,8 +83,7 @@ Company Name propagates to Role Catalog Head, Departmen Catalog Head(EPPL 1.01),
 <b>Data</b><br>
 EPPL pulls HR data from a CSV file using the CSV Connector, but this can easily be adapted to use a DB connector instead. All the data is stored in the file EPPL_HR_DATA.csv, located at /opt/midpoint/var/info.<br>
 <img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/DEMO%20IDM%20Midpoint%20EPPL%20DATA.png" border="0"></img><br>
-### Main Fields
-
+Main Fields
 - **`number_eppl`** – Unique sequential number.  
 - **`type_eppl`** – Record type.  
 - **`main_id`** – Unique identifier:  
@@ -94,10 +93,9 @@ EPPL pulls HR data from a CSV file using the CSV Connector, but this can easily 
 - **`member_of_eppel`** – Associated entity (singular, used for `association` in the resource).  
 - **`department_eppl`** – Department code for the assignment (from `ADMINISTRATION/Org.structure/Department Catalogs`).  
 - **`department_relation_eppl`** – If `manager`, denotes department head; otherwise empty.  
-- **`status_eppl`** – Status: set this to `disabled` to revoke assignment/employment.  
+- **`status_eppl`** – Status: set this to `disabled` to revoke assignment/employment.
 
-### Additional Data  
-Remaining fields contain supplementary information.
+Remaining fields contain supplementary information.<br>
 <br>
 <b>Video Steps</b><br>
 <a href="https://www.youtube.com/@IDMMidpointEPP">www.youtube.com/@IDMMidpointEPPL</a><br>
