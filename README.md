@@ -17,9 +17,11 @@ Changes with Respect To Version 1.0<br>
 - Faster first Reconcilation in some Resources with Multi-node<br>
 - Improved Task "EPPL delete nickName without members" for "Login Stop List"<br>
 - Impoved Login/nickName generation Script for "Login Stop List" and "Infinitely Logins"<br>
-- Fixed RED Error: GUI Boss Request LDAP account to own Position<br>
-- Fixed All Account Users name in Search Box Object Collection list<br>
 - Moved from view Persons to view All Account Users in Search Box "Users with account" and "Users without account"<br>
+- Fixed EPPL RED Error: GUI Boss Request LDAP account to own Position<br>
+- Fixed EPPL All Account Users name in Search Box Object Collection list<br>
+- Fixed Evolveum BUG that prevents saving System Config<br>
+
 <br>
 <b>Docker</b><br>
 Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
