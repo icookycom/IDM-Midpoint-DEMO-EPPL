@@ -20,6 +20,7 @@ Changes with Respect To Version 1.0<br>
 - Moved from view Persons to view All Account Users in Search Box "Users with account" and "Users without account"<br>
 - Fixed EPPL RED Error: GUI Boss Request LDAP account to own Position<br>
 - Fixed EPPL All Account Users name in Search Box Object Collection list<br>
+- ...other last minute changes<br>
 
 <br>
 <b>Docker</b><br>
