@@ -26,6 +26,8 @@ Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/D
 <br>
 <b>Storytelling EPPL 1.0</b><br>
 <a href="https://habr.com/ru/articles/923278/">Docker Demo IDM Midpoint EPPL c трудоустройствами, назначениями, проектами и LDAP</a><br>
+<b>Storytelling EPPL 1.01</b><br>
+<a href="https://habr.com/ru/articles/928904/">Обзор обновления 1.01 для IDM Midpoint DEMO EPPL добавлены Multi-Nodes, стоп лист для логинов и исправлены ошибки</a><br>
 <br>
 <b>Schema EPPL 1.01</b><br>
 <img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/Schema%20IDM%20MIdpoint%20EPPL.png" border="0"></img><br>
