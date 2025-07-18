@@ -24,7 +24,7 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 <b>Docker</b><br>
 Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
 <br>
-<b>Storytelling</b><br>
+<b>Storytelling EPPL 1.0</b><br>
 <a href="https://habr.com/ru/articles/923278/">Docker Demo IDM Midpoint EPPL c трудоустройствами, назначениями, проектами и LDAP</a><br>
 <br>
 <b>Schema EPPL 1.0</b><br>
