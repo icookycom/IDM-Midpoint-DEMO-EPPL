@@ -5,7 +5,7 @@ Version:<br>
 <b>EPPL 1.01 18.07.25</b><br>
 Compatibility: Evolveum midPoint 4.9.1<br>
 Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of interest filters in GUI Request access<br>
-Changes with Respect To Version EPPL 1.0 30.06.25<br>
+<b>Changes with Respect To Version EPPL 1.0 30.06.25</b><br>
 - Added Login Stop List<br>
 - Added Infinitely Logins (numbers are added to the end of the login)<br>
 - Added Head Department inherits Company Name<br>
