@@ -1,11 +1,7 @@
 IDM Midpoint DEMO EPPL<br>
 Employments Positions Projects LDAP<br>
 <br>
-Version:<br>
-<b>EPPL 1.0 30.06.25</b><br>
-Compatibility: midPoint 4.9.1<br>
-
-Under Development<br>
+Version's:<br>
 <b>EPPL 1.01 16.09.25</b><br>
 Compatibility: midPoint 4.9.1, will be tested on 4.9.4<br>
 Changes with Respect To Version 1.0<br>
@@ -20,7 +16,10 @@ Changes with Respect To Version 1.0<br>
 - Moved from view Persons to view All Account Users in Search Box "Users with account" and "Users without account"<br>
 - Fixed EPPL RED Error: GUI Boss Request LDAP account to own Position<br>
 - Fixed EPPL All Account Users name in Search Box Object Collection list<br>
+- Changed the color and text of the warning "not authorized for operation" to avoid scaring employees<br>
 - ...other last minute changes<br>
+<b>EPPL 1.0 30.06.25</b><br>
+Compatibility: midPoint 4.9.1<br>
 
 <br>
 <b>Docker</b><br>
