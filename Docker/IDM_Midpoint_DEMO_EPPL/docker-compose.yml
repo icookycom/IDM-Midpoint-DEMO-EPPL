@@ -21,7 +21,7 @@ services:
       grep -q \"ERROR\" /tmp/ninja.log && (
       bin/ninja.sh run-sql --create --mode REPOSITORY  ;
       bin/ninja.sh run-sql --create --mode AUDIT	;
-      bin/ninja.sh import -O -i /opt/midpoint/var/export_eppl_1.zip -z -l 4 -r
+      bin/ninja.sh import -O -i /opt/midpoint/var/export_eppl_101.zip -z -l 4 -r
       ) ||
       echo -e '\\n Repository init is not needed...' ;
       "
@@ -37,7 +37,7 @@ services:
      - net
     volumes:
      - midpoint_home:/opt/midpoint/var
-     - ./DATA/export_eppl_1.zip:/opt/midpoint/var/export_eppl_1.zip
+     - ./DATA/export_eppl_101.zip:/opt/midpoint/var/export_eppl_101.zip
 
   openldap:
     image: osixia/openldap:1.5.0
@@ -67,9 +67,8 @@ services:
     volumes:
       - phpldapadmin_data:/var/www/phpldapadmin
     depends_on:
-      - openldap
-                
-  midpoint_server:
+      - openldap           
+  midpoint_server_A:
     image: evolveum/midpoint:4.9.1-alpine
     depends_on:
       data_init:
@@ -78,7 +77,7 @@ services:
         condition: service_started
     command: [ "/opt/midpoint/bin/midpoint.sh", "container" ]
     ports:
-      - 8080:8080
+     - 8080:8080
     environment:
      - MP_SET_midpoint_repository_jdbcUsername=midpoint
      - MP_SET_midpoint_repository_jdbcPassword=db.secret.pw.007
@@ -86,6 +85,58 @@ services:
      - MP_SET_midpoint_repository_database=postgresql
      - MP_SET_midpoint_administrator_initialPassword=Test5ecr3t
      - MP_UNSET_midpoint_repository_hibernateHbm2ddl=1
+     - MP_SET_midpoint_taskManager_clustered=true
+     - MP_SET_midpoint_nodeId=Alpha
+     - MP_NO_ENV_COMPAT=1
+    networks:
+     - net
+    volumes:
+     - midpoint_home:/opt/midpoint/var
+     - ./DATA/EPPL.xsd:/opt/midpoint/var/schema/EPPL.xsd
+     - ./DATA/EPPL_HR_DATA.csv:/opt/midpoint/var/info/EPPL_HR_DATA.csv
+
+  midpoint_server_T:
+    image: evolveum/midpoint:4.9.1-alpine
+    depends_on:
+      data_init:
+        condition: service_completed_successfully
+      midpoint_data:
+        condition: service_started
+    command: [ "/opt/midpoint/bin/midpoint.sh", "container" ]
+    environment:
+     - MP_SET_midpoint_repository_jdbcUsername=midpoint
+     - MP_SET_midpoint_repository_jdbcPassword=db.secret.pw.007
+     - MP_SET_midpoint_repository_jdbcUrl=jdbc:postgresql://midpoint_data:5432/midpoint
+     - MP_SET_midpoint_repository_database=postgresql
+     - MP_SET_midpoint_administrator_initialPassword=Test5ecr3t
+     - MP_UNSET_midpoint_repository_hibernateHbm2ddl=1
+     - MP_SET_midpoint_taskManager_clustered=true
+     - MP_SET_midpoint_nodeId=Teta
+     - MP_NO_ENV_COMPAT=1
+    networks:
+     - net
+    volumes:
+     - midpoint_home:/opt/midpoint/var
+     - ./DATA/EPPL.xsd:/opt/midpoint/var/schema/EPPL.xsd
+     - ./DATA/EPPL_HR_DATA.csv:/opt/midpoint/var/info/EPPL_HR_DATA.csv
+
+  midpoint_server_S:
+    image: evolveum/midpoint:4.9.1-alpine
+    depends_on:
+      data_init:
+        condition: service_completed_successfully
+      midpoint_data:
+        condition: service_started
+    command: [ "/opt/midpoint/bin/midpoint.sh", "container" ]
+    environment:
+     - MP_SET_midpoint_repository_jdbcUsername=midpoint
+     - MP_SET_midpoint_repository_jdbcPassword=db.secret.pw.007
+     - MP_SET_midpoint_repository_jdbcUrl=jdbc:postgresql://midpoint_data:5432/midpoint
+     - MP_SET_midpoint_repository_database=postgresql
+     - MP_SET_midpoint_administrator_initialPassword=Test5ecr3t
+     - MP_UNSET_midpoint_repository_hibernateHbm2ddl=1
+     - MP_SET_midpoint_taskManager_clustered=true
+     - MP_SET_midpoint_nodeId=Sigma
      - MP_NO_ENV_COMPAT=1
     networks:
      - net
@@ -95,11 +146,10 @@ services:
      - ./DATA/EPPL_HR_DATA.csv:/opt/midpoint/var/info/EPPL_HR_DATA.csv
 
 
-
-
 networks:
   net:
     driver: bridge
+
 
 volumes:
   midpoint_data:
