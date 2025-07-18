@@ -17,7 +17,7 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 - Moved from view Persons to view All Account Users in Search Box "Users with account" and "Users without account"<br>
 - Fixed EPPL RED Error: GUI Boss Request LDAP account to own Position<br>
 - Fixed EPPL All Account Users name in Search Box Object Collection list<br>
-- Changed the color and text of the warning "not authorized for operation" to avoid scaring employees<br>
+- Changed the color and text of the warning "not authorized for operation" to avoid scaring employees in their GUI<br>
 - ...other last minute changes<br>
 
 <br>
