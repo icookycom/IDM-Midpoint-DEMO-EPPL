@@ -1,7 +1,7 @@
 IDM Midpoint DEMO EPPL<br>
 Employments Positions Projects LDAP<br>
 <br>
-Version's:<br>
+Version:<br>
 <b>EPPL 1.01 18.07.25</b><br>
 Compatibility: Evolveum midPoint 4.9.1<br>
 Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of interest filters in GUI Request access<br>
