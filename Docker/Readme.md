@@ -1,5 +1,7 @@
 <img src="./Docker_IDM_Midpoint_DEMO_EPPL_.png" border="0"></img><br>
-<br>
+<br><br>
+:warning: ATTENTION: Do not forget to run the Reindex Repository Object in ADMINISTRATION\About after first login, after first start of Docker Compose.
+<br><br>
 Midpoint<br>
 http://localhost:8080<br>
 Username: administrator<br>
