@@ -96,7 +96,7 @@ Main Fields
 Remaining fields contain supplementary information.<br>
 <br>
 <b>Video Steps</b><br>
-<a href="https://www.youtube.com/@IDMMidpointEPP">www.youtube.com/@IDMMidpointEPPL</a><br>
+<a href="https://www.youtube.com/@IDMMidpointEPPL">www.youtube.com/@IDMMidpointEPPL</a><br>
 <br>
 IDM Midpoint EPPL | 1. Docker Compose first run<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_Vm4GSTNzGE/0.jpg)](https://www.youtube.com/watch?v=_Vm4GSTNzGE)
