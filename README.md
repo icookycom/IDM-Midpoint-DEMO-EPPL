@@ -1,5 +1,14 @@
-IDM Midpoint DEMO EPPL<br>
-Employments Positions Projects LDAP<br>
+IDM Midpoint DEMO Employments Positions Projects LDAP<br>
+<b>Schema EPPL 1.01</b><br>
+<img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/Schema%20IDM%20MIdpoint%20EPPL.png" border="0"></img><br>
+<br>
+<b>Docker Compose</b><br>
+Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
+<br>
+<b>Storytelling EPPL 1.0</b><br>
+<a href="https://habr.com/ru/articles/923278/">Docker Demo IDM Midpoint EPPL c трудоустройствами, назначениями, проектами и LDAP</a><br>
+<b>Storytelling EPPL 1.01</b><br>
+<a href="https://habr.com/ru/articles/928904/">Обзор обновления 1.01 для IDM Midpoint DEMO EPPL добавлены Multi-Nodes, стоп лист для логинов и исправлены ошибки</a><br>
 <br>
 Version:<br>
 <b>EPPL 1.01 18.07.25</b><br>
@@ -21,19 +30,6 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 - ...other last minute changes<br>
 
 <br>
-<b>Docker</b><br>
-Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/Docker">IDM-Midpoint-DEMO-EPPL/tree/main/Docker</a><br>
-<br>
-<b>Storytelling EPPL 1.0</b><br>
-<a href="https://habr.com/ru/articles/923278/">Docker Demo IDM Midpoint EPPL c трудоустройствами, назначениями, проектами и LDAP</a><br>
-<b>Storytelling EPPL 1.01</b><br>
-<a href="https://habr.com/ru/articles/928904/">Обзор обновления 1.01 для IDM Midpoint DEMO EPPL добавлены Multi-Nodes, стоп лист для логинов и исправлены ошибки</a><br>
-<br>
-<b>Schema EPPL 1.01</b><br>
-<img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/Schema%20IDM%20MIdpoint%20EPPL.png" border="0"></img><br>
-<br>
-
-
 <b>EPPL Functionality</b><br>
 <b>1. Employments</b><br>
 Creation/blocking from HR source<br>
