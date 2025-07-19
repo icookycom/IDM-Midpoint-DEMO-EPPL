@@ -80,6 +80,7 @@ Company Name propagates to Role Catalog Head, Departmen Catalog Head(EPPL 1.01),
 <b>Data</b><br>
 EPPL pulls HR data from a CSV file using the CSV Connector, but this can easily be adapted to use a DB connector instead. All the data is stored in the file EPPL_HR_DATA.csv, located at /opt/midpoint/var/info.<br>
 <img src="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/blob/main/DEMO%20IDM%20Midpoint%20EPPL%20DATA.png" border="0"></img><br>
+
 Main Fields
 - **`number_eppl`** – Unique sequential number.  
 - **`type_eppl`** – Record type.  
