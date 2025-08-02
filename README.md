@@ -31,7 +31,7 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 
 <b>Under Development</b><br>
 EPPL 1.02 01.09.25<br>
-- Manager delegetion of manager status of Department<br>
+- Added Manager delegetion of Manager status of Department<br>
 - Improved Forward Role inhereted role assignment inducement mechanism<br>
 
 <br>
