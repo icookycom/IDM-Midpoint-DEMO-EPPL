@@ -42,7 +42,6 @@ services:
   openldap:
     image: osixia/openldap:1.5.0
     entrypoint: [ "/container/tool/run", "--copy-service" ]
-    container_name: openldap
     environment:
       - LDAP_DOMAIN=example.com
       - LDAP_ADMIN_PASSWORD=Test5ecr3t
