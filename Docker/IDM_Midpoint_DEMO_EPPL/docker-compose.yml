@@ -21,7 +21,7 @@ services:
       grep -q \"ERROR\" /tmp/ninja.log && (
       bin/ninja.sh run-sql --create --mode REPOSITORY  ;
       bin/ninja.sh run-sql --create --mode AUDIT	;
-      bin/ninja.sh import -O -i /opt/midpoint/var/export_eppl_101.zip -z -l 4 -r
+      bin/ninja.sh import -O -i /opt/midpoint/var/export_eppl_102.zip -z -l 4 -r
       ) ||
       echo -e '\\n Repository init is not needed...' ;
       "
@@ -37,7 +37,7 @@ services:
      - net
     volumes:
      - midpoint_home:/opt/midpoint/var
-     - ./DATA/export_eppl_101.zip:/opt/midpoint/var/export_eppl_101.zip
+     - ./DATA/export_eppl_102.zip:/opt/midpoint/var/export_eppl_102.zip
 
   openldap:
     image: osixia/openldap:1.5.0
@@ -151,6 +151,7 @@ networks:
 
 
 volumes:
+  keystore:
   midpoint_data:
   midpoint_home:
   openldap_data:
