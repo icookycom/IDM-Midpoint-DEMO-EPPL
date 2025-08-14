@@ -38,6 +38,7 @@ Restrictions on role acquisition based on recipient type and company affiliation
 Requesting access rights for subordinates<br>
 Viewing a subordinate’s photo<br>
 Hierarchical determination of supervisors by department<br>
+Delegation of manager functions of department (EPPL 1.02)<br>
 <b>6. Login/nickName Generation</b><br>
 Cyrillic is converted to Latin<br>
 Generated at the time of account assignment<br>
