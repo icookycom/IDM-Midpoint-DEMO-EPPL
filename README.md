@@ -71,7 +71,8 @@ Main Fields
   - For **User (employee)**: HR ID.  
   - Assignments start with `POS`, employments with `EMP`.  
 - **`parent_id`** – Organization code (from `ADMINISTRATION/Roles/Company Roles`).  
-- **`member_of_eppel`** – Associated entity (singular, used for `association` in the resource).  
+- **`member_of_eppel`** – Associated entity (singular, used for `association` in the resource).
+- - **`grade_eppel`** – Coded "Основное" for determination of main employment.  
 - **`department_eppl`** – Department code for the assignment (from `ADMINISTRATION/Org.structure/Department Catalogs`).  
 - **`department_relation_eppl`** – If `manager`, denotes department head; otherwise empty.  
 - **`status_eppl`** – Status: set this to `disabled` to revoke assignment/employment.
