@@ -35,9 +35,16 @@ IDM Midpoint EPPL | 1. Docker Compose first run<br>
 <br><br>
 
 Version:<br>
-<b>EPPL 1.01 18.07.25</b><br>
+<b>EPPL 1.02 14.08.25</b><br>
 Compatibility: Evolveum midPoint 4.9.1<br>
 Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of interest filters in GUI Request access<br>
+<br>
+<b>Changes with Respect To Version EPPL 1.01 18.07.25</b><br>
+- Added Manager delegation of Manager status of Department<br>
+- Improved Forward Role inhereted role assignment inducement mechanism<br>
+- Improved Forward Role role link, no more writing from object Temlate only from assignments<br>
+- Improved Departament manager-subordinate mechanism<br>
+- Improved Person-Employment Role main employment to organization mechanism<br>
 <b>Changes with Respect To Version EPPL 1.0 30.06.25</b><br>
 - Added Login Stop List<br>
 - Added Infinitely Logins (numbers are added to the end of the login)<br>
@@ -52,11 +59,8 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 - Fixed EPPL All Account Users name in Search Box Object Collection list<br>
 - Changed the color and text of the warning "not authorized for operation" to avoid scaring employees in their GUI<br>
 - ...other last minute changes<br>
-
+<br>
 <b>Under Development</b><br>
-EPPL 1.02 01.09.25<br>
-- Added Manager delegation of Manager status of Department<br>
-- Improved Forward Role inhereted role assignment inducement mechanism<br>
-- Improved Forward Role role link, no more writing from object Temlate only from assignments<br>
-- Improved Departament manager-subordinate mechanism<br>
-- Improved Person-Employment Role main employment to organization mechanism<br>
+EPPL 1.03 Release Date: foreseeable future<br>
+- Will be Fixed User Boss(maybe others) can see members in LDAP System Role, but not in GUI Roles (and that's good)<br>
+
