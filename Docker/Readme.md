@@ -58,4 +58,5 @@ EPPL 1.02 01.09.25<br>
 - Added Manager delegation of Manager status of Department<br>
 - Improved Forward Role inhereted role assignment inducement mechanism<br>
 - Improved Forward Role role link, no more writing from object Temlate only from assignments<br>
-- Improved Departament manager-subordinate mechanic<br>
+- Improved Departament manager-subordinate mechanism<br>
+- Improved Person-Employment Role main employment to organization mechanism<br>
