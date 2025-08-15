@@ -62,5 +62,5 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 <br>
 <b>Under Development</b><br>
 EPPL 1.03 Release Date: foreseeable future<br>
-- Will be Fixed User Boss(maybe others) can see members in LDAP System Role, but not in GUI Roles (and that's good)<br>
-
+- Will be Fixed User Manager(maybe others) can see members in LDAP System Role, but not in GUI Roles (and that's good)<br>
+- Will be Fixed User Manager cant see additional name of his subordinates<br>
