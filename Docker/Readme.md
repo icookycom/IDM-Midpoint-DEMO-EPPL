@@ -45,6 +45,7 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 - Improved Forward Role role link, no more writing from object Temlate only from assignments<br>
 - Improved Departament manager-subordinate mechanism<br>
 - Improved Person-Employment Role main employment to organization mechanism<br>
+
 <b>Changes with Respect To Version EPPL 1.0 30.06.25</b><br>
 - Added Login Stop List<br>
 - Added Infinitely Logins (numbers are added to the end of the login)<br>
