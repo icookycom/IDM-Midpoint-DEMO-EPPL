@@ -10,7 +10,7 @@ Compose <a href="https://github.com/icookycom/IDM-Midpoint-DEMO-EPPL/tree/main/D
 <b>Storytelling EPPL 1.01</b><br>
 <a href="https://habr.com/ru/articles/928904/">Обзор обновления 1.01 для IDM Midpoint DEMO EPPL добавлены Multi-Nodes, стоп лист для логинов и исправлены ошибки</a><br>
 <b>Storytelling EPPL 1.02</b><br>
-...<br>
+<a href="https://www.youtube.com/watch?v=MLR78bNkfnk">https://www.youtube.com/watch?v=MLR78bNkfnk</a><br>
 
 <br>
 <b>EPPL Functionality</b><br>
@@ -106,3 +106,9 @@ IDM Midpoint EPPL | 7. GUI User Managing dedicated Project Roles<br>
 <br>
 IDM Midpoint EPPL | 8. Dismissal from Position, Multiple Accounts, Users photo to LDAP<br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fCVq6cfEKKY/0.jpg)](https://www.youtube.com/watch?v=fCVq6cfEKKY)
+<br>
+IDM Midpoint EPPL 9 | Nickname Stop List, Generate endless nicknames<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rXd2vx50GSc/0.jpg)](https://www.youtube.com/watch?v=rXd2vx50GSc)
+<br>
+IDM Midpoint EPPL | 10 Delegation of Department management, permanent and temporary<br>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MLR78bNkfnk/0.jpg)](https://www.youtube.com/watch?v=MLR78bNkfnk)
