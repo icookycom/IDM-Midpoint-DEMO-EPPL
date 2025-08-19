@@ -61,7 +61,4 @@ Incompatible: Evolveum midPoint 4.9.2,4.9.3 - due to Evolveum BUG for Person of 
 - Changed the color and text of the warning "not authorized for operation" to avoid scaring employees in their GUI<br>
 - ...other last minute changes<br>
 <br>
-<b>TODO<br>
-- Will be Fixed User Manager(maybe others) can see members in LDAP System Role, but not in GUI Roles (and that's good)<br>
-- Will be Fixed User Manager cant see additional name of his subordinates<br>
-- Will be Resumed task EPPL Unassign from User Position a Role with assigment validTo expired (some confussion could be here)<br>
+
