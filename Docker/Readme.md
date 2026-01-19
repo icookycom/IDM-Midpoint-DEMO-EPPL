@@ -42,7 +42,7 @@ Incompatible: Evolveum midPoint 4.9.2-4.9.4 - due to Evolveum BUG for Person of 
 <b>Changes with Respect To Version EPPL 1.01 18.07.25</b><br>
 - Added Manager delegation of Manager status of Department<br>
 - Improved Forward Role inhereted role assignment inducement mechanism<br>
-- Improved Forward Role role link, no more writing from object Temlate only from assignments<br>
+- Improved Forward Role role link, no more writing from object Template only from assignments<br>
 - Improved Departament manager-subordinate mechanism<br>
 - Improved Person-Employment Role main employment to organization mechanism<br>
 
